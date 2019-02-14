@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+    <head>
+        <!--koodisto-->
+        <meta charset="utf-8">
+        <!--IE-yhteensopivuus-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--title, max 72 merrkiä, avainsanoja Googlehakuun-->
+        <title>Tuntiharjoitus</title>
+        <!--linkki ulkopuoliseen tyylitiedostoon-->
+        <link href="tyyli1.css" rel="stylesheet">
+
+        <!—bootsrapin CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+        <!-- bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+
+        <!--Google-fontit-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+        
+    </head>
+
+    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div clas="container" id="alku">
+       <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+            <a class="navbar-brand" href="#alku"><img src="bear.png" alt="logo">Bear's Nook</a>
+
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+        <a class="nav-link navbar-text" href="#etusivu">Home<span class="sr-only"> (current)</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link navbar-text" href="#ravintola">Reservation</a>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle navbar-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Lunch</a>
+          <a class="dropdown-item" href="#">A la carte</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Drinks</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navbar-text" href="#">Contacts</a>
+      </li>
+    </ul>
+    
+     </div>
+     </nav>
+    </div>
+
+    <!--karuselli alkaa tästä-->
+     <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+  
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        <!--kysymys: tarvitsenko minä tämän divin?-->
+          <div class="carousel-container">
+          <img class="carousel-image" src="pictures/soup.jpg" alt="Soup in the bread">
+          <div class="centered">
+          <h1 class="image-text">Delicious hot soups</h1>
+          <h3 class="image-text">something you really need for a cold winter</h3>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+        <div class="carousel-container">
+          <img class="carousel-image" src="pictures/bruschetta.jpg" alt="Bruschetta on the plate">
+          <div class="centered">
+          <h1 class="image-text">For small hunger</h1>
+          <h3 class="image-text">explore our variety of starters</h3>
+          </div>
+        </div>
+         </div>
+        <div class="carousel-item">
+        <div class="carousel-container">
+          <img class="carousel-image" src="pictures/pie.jpg" alt="A pie">
+          <div class="centered">
+          <h1 class="image-text">Have got a sweet tooth?</h1>
+          <h3 class="image-text">Have a look at out dessert menu!</h3>
+          </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <div class="carousel-container">
+          <img class="carousel-image" src="pictures/kuva3.jpg" alt="Shrimps with rice">
+          <div class="centered">
+            <h1 class="image-text">A-la carte</h1>
+            <h3 class="image-text">Various dishes for any taste</h3>
+          </div>
+        </div>
+        </div>
+
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+
+    </body>
+</html>
